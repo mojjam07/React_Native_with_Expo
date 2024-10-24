@@ -26,6 +26,9 @@ import FlexGrow from "./LayoutExample/FlexGrow";
 import RelativeAboluteLayout from "./LayoutExample/RelativeAbsoluteLayout";
 import UserInterface from "./DynamicUI/UserInterface";
 import DimensionAPI from "./DynamicUI/DimensionAPI";
+import DimensionApiDrawback from "./DynamicUI/DimensionApiDrawback";
+import UseWindowDimension from "./DynamicUI/useWindowDimension";
+import SafeAreaView from "./DynamicUI/SafeAreaViews";
 
 export default function App() {
   return (
@@ -82,6 +85,8 @@ export default function App() {
     // <RelativeAboluteLayout />
     // <UserInterface />
     // <DimensionAPI />
-    <DimensionApiDrawback />
+    // <DimensionApiDrawback /> // slight error here...
+    // <UseWindowDimension />
+    <SafeAreaView />
   );
 }
