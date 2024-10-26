@@ -1,0 +1,9 @@
+[
+  { "type": "Grass", "data": ["bulbasaur", "Ivysaur", "Venusaur"] },
+  { "type": "Fire", "data": ["charmander", "chameleon", "charizard"] },
+  { "type": "Water", "data": ["squirtle", "wartortle", "blastoise"] },
+  { "type": "Electric", "data": ["pickachu", "lokichu", "sesechu"] },
+  { "type": "Movies", "data": ["sunbae", "jumong", "peter-pan"] },
+  { "type": "Sport", "data": ["football", "tennis", "relay"] },
+  { "type": "Hobbies", "data": ["sports", "dancing", "singing"] }
+]

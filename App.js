@@ -27,8 +27,20 @@ import RelativeAboluteLayout from "./LayoutExample/RelativeAbsoluteLayout";
 import UserInterface from "./DynamicUI/UserInterface";
 import DimensionAPI from "./DynamicUI/DimensionAPI";
 import DimensionApiDrawback from "./DynamicUI/DimensionApiDrawback";
-import UseWindowDimension from "./DynamicUI/useWindowDimension";
+// import UseWindowDimension from "./DynamicUI/useWindowDimension";
 import SafeAreaView from "./DynamicUI/SafeAreaViews";
+import PlatformSpecific from "./DynamicUI/PlatformSpecific";
+import List1 from "./List/List1";
+import FlatList1 from "./List/FlatList1";
+import SectionList1 from "./List/SectionList1";
+import TextInput1 from "./InputsAndForms/TextInput1";
+import Switch1 from "./InputsAndForms/Switch1";
+import LoginForm from "./InputsAndForms/LoginForm";
+import KeyboardAvoidingView from "./InputsAndForms/KeyboardAvoidingView1";
+import FormValidation from "./InputsAndForms/FormValidation";
+import GetRequest from "./Networking/GetRequest";
+import RefreshingData from "./Networking/RefreshingData";
+import PostRequest from "./Networking/GetRequest";
 
 export default function App() {
   return (
@@ -71,6 +83,7 @@ export default function App() {
     //   <Box style={{ backgroundColor: "#8e9b00" }}>Box 7</Box>
     //   <Box style={{ backgroundColor: "#b65d1f" }}>Box 8</Box>
     // </View>
+
     // <BoxApp />
     // <FlexDirection />
     // <JustifyContent />
@@ -87,6 +100,18 @@ export default function App() {
     // <DimensionAPI />
     // <DimensionApiDrawback /> // slight error here...
     // <UseWindowDimension />
-    <SafeAreaView />
+    // <SafeAreaView />
+    // <PlatformSpecific />
+    // <List1 />
+    // <FlatList1 />
+    // <SectionList1 />
+    // <TextInput1 />
+    // <Switch1 />
+    // <LoginForm />
+    // <KeyboardAvoidingView />
+    // <FormValidation />
+    // <GetRequest />
+    // <RefreshingData />
+    <PostRequest />
   );
 }
