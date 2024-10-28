@@ -41,6 +41,8 @@ import FormValidation from "./InputsAndForms/FormValidation";
 import GetRequest from "./Networking/GetRequest";
 import RefreshingData from "./Networking/RefreshingData";
 import PostRequest from "./Networking/GetRequest";
+import Navigation1 from "./Navigation/Navigation1";
+import StackNavigation1 from "./Navigation/StackNavigation1";
 
 export default function App() {
   return (
@@ -112,6 +114,8 @@ export default function App() {
     // <FormValidation />
     // <GetRequest />
     // <RefreshingData />
-    <PostRequest />
+    // <PostRequest /> //Need to checkout this later for android os
+    // <Navigation1 />
+    <StackNavigation1 />
   );
 }
