@@ -1,18 +1,18 @@
-import { useNavigation } from "@react-navigation/native";
 import { View, Text, StyleSheet, Button } from "react-native";
 //import { useNavigation } from "@react-navigation/native";
 
-export default function AboutScreen({ navigation }) {
+export default function ThirdScreen({ route, navigation }) {
   //   const navigation = useNavigation(); // to use this hook, remove the navigation props
 
+  const { name } = route.params;
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>About Screen</Text>
+      <Text style={styles.text}>{name}</Text>
       <Button
-        title="Goto Home"
+        title="Update name"
         onPress={() =>
-          navigation.navigate("Home", {
-            name: "Guest",
+          navigation.setParams({
+            name: "MojjamTech",
           })
         }
       />
