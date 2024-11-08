@@ -45,6 +45,11 @@ import Navigation1 from "./Navigation/Navigation1";
 import StackNavigation1 from "./Navigation/StackNavigation1";
 import DrawerNavigation1 from "./Navigation/DrawerNavigation1";
 import TabNavigation from "./Navigation/TabNavigation";
+import MultipleStyle from "./stylingInRN/MultipleStyle";
+import BoxModel from "./stylingInRN/BoxModel";
+import BoxShadow from "./stylingInRN/BoxShadow";
+import StyleInheriance from "./stylingInRN/StyleInheritance";
+import PokemonCard from "./Exercises/PokemonCard";
 
 export default function App() {
   return (
@@ -120,6 +125,11 @@ export default function App() {
     // <Navigation1 />
     // <StackNavigation1 />
     // <DrawerNavigation1 />
-    <TabNavigation />
+    // <TabNavigation />
+    // <MultipleStyle />
+    // <BoxModel />
+    // <BoxShadow />
+    <StyleInheriance />
+    // <PokemonCard />
   );
 }
